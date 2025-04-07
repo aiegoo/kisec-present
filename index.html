@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GraphQL Security Report</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans p-6">
+  <div class="max-w-5xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold mb-2">GraphQL Reconnaissance & Attack Surface Report</h1>
+      <p class="text-sm text-gray-600">KISEC Project 1 &bull; April 2025</p>
+    </header>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-2">1. Executive Summary</h2>
+      <p>This report summarizes findings from a security assessment targeting a GraphQL endpoint. We identified weaknesses such as schema introspection exposure, unauthenticated WebSocket access, and verbose error disclosure.</p>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-2">2. Objectives</h2>
+      <ul class="list-disc pl-5">
+        <li>Identify exposed GraphQL endpoints</li>
+        <li>Enumerate schema types and operations</li>
+        <li>Detect WebSocket upgrade vulnerabilities</li>
+        <li>Map the GraphQL attack surface</li>
+      </ul>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-2">3. Methodology</h2>
+      <p>Using tools like Nmap, ffuf, and curl, we manually and automatically probed the exposed ngrok-based GraphQL instance. Screenshots and logs were collected throughout the process.</p>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-2">4. Key Findings</h2>
+      <ul class="list-disc pl-5">
+        <li><strong>Introspection Enabled:</strong> Schema enumeration possible</li>
+        <li><strong>WebSocket Subscriptions:</strong> Unauthenticated 101 response</li>
+        <li><strong>Error Disclosure:</strong> Message suggests no query validation</li>
+        <li><strong>Open POST Access:</strong> Accepts invalid GraphQL queries</li>
+      </ul>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-2">5. Risk Evaluation</h2>
+      <table class="table-auto w-full text-left border border-collapse">
+        <thead>
+          <tr class="bg-gray-200">
+            <th class="border px-4 py-2">Risk</th>
+            <th class="border px-4 py-2">Impact</th>
+            <th class="border px-4 py-2">Likelihood</th>
+            <th class="border px-4 py-2">Severity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border px-4 py-2">Introspection Enabled</td>
+            <td class="border px-4 py-2">Medium</td>
+            <td class="border px-4 py-2">High</td>
+            <td class="border px-4 py-2 font-semibold">High</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-2">WebSocket Access</td>
+            <td class="border px-4 py-2">High</td>
+            <td class="border px-4 py-2">Medium</td>
+            <td class="border px-4 py-2 font-semibold">High</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-2">Verbose Errors</td>
+            <td class="border px-4 py-2">Medium</td>
+            <td class="border px-4 py-2">High</td>
+            <td class="border px-4 py-2 font-semibold">Medium</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-2">6. Recommendations</h2>
+      <ol class="list-decimal pl-5">
+        <li>Disable introspection in production</li>
+        <li>Enforce authentication on WebSocket upgrades</li>
+        <li>Implement WAF and API rate-limiting</li>
+        <li>Suppress detailed error messages</li>
+        <li>Use schema validation and deny malformed queries</li>
+      </ol>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold mb-2">7. Appendix</h2>
+      <ul class="list-disc pl-5">
+        <li>Payloads: <code>/payloads/graphql-payloads.txt</code></li>
+        <li>Slides: <code>/slides/</code></li>
+        <li>Screenshots: <code>/images/</code></li>
+      </ul>
+    </section>
+
+    <footer class="text-sm text-gray-500 mt-10">
+      Built for KISEC Project 1 · April 2025 · Author: @aiegoo
+    </footer>
+  </div>
+</body>
+</html>
