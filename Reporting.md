@@ -1,8 +1,4 @@
-Here’s a full **Security Report** for your project, written in a formal yet practical tone, ideal for submission to supervisors, security teams, or as part of KISEC documentation:
 
----
-
-```markdown
 # 🛡️ Security Assessment Report  
 ## GraphQL Reconnaissance & Attack Surface Enumeration  
 **Project:** KISEC Project 1  
