@@ -8,7 +8,7 @@
 
 ---
 
-## 1. Executive Summary
+## 1. Summary
 
 This report summarizes the findings of a reconnaissance and enumeration assessment conducted on a GraphQL endpoint deployed on port `5013`. Through the use of open-source security tools and custom payloads, we discovered several security risks associated with an improperly secured GraphQL API and WebSocket-based subscription endpoint.
 
