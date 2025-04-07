@@ -2,8 +2,8 @@
 # 🛡️ Security Assessment Report  
 ## GraphQL Reconnaissance & Attack Surface Enumeration  
 **Project:** KISEC Project 1  
-**Author:** @aiegoo  
-**Date:** April 2025  
+**Author:** @aiegoo  이병남 
+**Date:** April9  2025  
 
 ---
 
