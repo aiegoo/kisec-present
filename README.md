@@ -1,8 +1,4 @@
-Absolutely! Here's a professional and well-structured `README.md` tailored for your GitHub repository that explains the GraphQL reconnaissance and attack surface presentation (including the use of WebSockets, Nmap, and discovery techniques):
 
----
-
-```markdown
 # 🛡️ GraphQL Reconnaissance & Attack Surface Mapping
 
 This repository presents a detailed assessment of a GraphQL endpoint using both passive and active reconnaissance methods. It includes a structured **Gamma pitch deck**, **Nmap discovery techniques**, and **real-time WebSocket enumeration** to identify potential attack surfaces.
@@ -97,6 +93,3 @@ Maintained by: [`@aiegoo`](https://github.com/aiegoo)
 MIT License — Feel free to reuse and contribute.
 ```
 
----
-
-Let me know if you'd like to generate this as a file (`README.md`) or tweak it for a specific project structure or tone (e.g. more academic, corporate, or hacker-style).
