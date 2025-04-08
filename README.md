@@ -29,7 +29,7 @@ This repository presents a detailed assessment of a GraphQL endpoint using both 
 - **ffuf**  
   Fast directory/content fuzzing to enumerate GraphQL access points.
 
-- **cURL & Burp Suite**  
+- **cURL & SpiderFoot**  
   Manual probing of introspection and WebSocket headers.
 
 ---
