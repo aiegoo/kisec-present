@@ -45,7 +45,7 @@ curl -X POST https://<target>/graphql \
 ### WebSocket Subscription (handshake)
 ```
 GET /subscriptions HTTP/1.1
-Host: <target>
+Host: 0.0.0.0:5013
 Upgrade: websocket
 Connection: Upgrade
 Sec-WebSocket-Version: 13
