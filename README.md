@@ -17,7 +17,7 @@ This repository presents a detailed assessment of a GraphQL endpoint using both 
 
 | GraphQL Detection via Nmap | WebSocket Upgrade | Subscription Endpoint |
 |----------------------------|-------------------|------------------------|
-| ![nmap_typename](images/nmap_typename.png) | ![websocket_101](images/websocket_101.png) | ![subscriptions_ws](images/subscriptions_ws.png) |
+| ![nmap_typename](images/exposedSchema.png) | ![websocket_101](images/websocket_101.png) | ![subscriptions_ws](images/subscriptions_ws.png) |
 
 ---
 
