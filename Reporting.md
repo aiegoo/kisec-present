@@ -139,7 +139,7 @@ The GraphQL server exposed in this test is susceptible to enumeration, live subs
 
 ## 8. Appendix
 
-- 🔍 Payloads used: See `/payloads/graphql-payloads.txt`  
+- 🔍 Payloads used: See `https://gist.github.com/aiegoo/2ac371f792996dccd321f9fff93a52b9` as a part of secret gist; request for access.  
 - 📊 Slides: See `Gamma Pitch Deck` in `/slides/`  
 - 📎 Screenshots: See `/images/` folder for visual proof of tests
 
