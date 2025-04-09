@@ -15,4 +15,4 @@ A summarized table of popular **GraphQL server-side languages** and their major 
 | **Rust**         | [async-graphql](https://github.com/async-graphql/async-graphql) | Fast, async-first, type-safe implementation                               |
 | **Kotlin**       | [graphql-kotlin](https://github.com/ExpediaGroup/graphql-kotlin) | Built by Expedia; strongly typed and coroutine-based                      |
 
-Let me know if you want to highlight specific strengths, performance, or learning curves in a presentation format!
+
