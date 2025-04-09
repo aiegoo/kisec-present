@@ -147,7 +147,7 @@ The GraphQL server exposed in this test is susceptible to enumeration, live subs
 
 ## 9. References
 
-- OWASP GraphQL Security Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Security_Cheat_Sheet.html  
+- OWASP GraphQL Security Cheat Sheet: [cheatSheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Security_Cheat_Sheet.html) 
 - WebSocket Security: https://portswigger.net/web-security/websockets  
 - Nmap Scripts: https://nmap.org/nsedoc/scripts/http-grep.html
 
