@@ -75,7 +75,7 @@ Sec-WebSocket-Key: <key>
 
 ## 📚 Related Concepts
 
-- [GraphQL Introspection Attacks](https://blog.securityheaders.io/graphql-security-how-to-disable-introspection/)
+- [GraphQL Introspection Attacks]([https://blog.securityheaders.io/graphql-security-how-to-disable-introspection/](https://www.cobalt.io/blog/deep-dive-into-graphql-pt.-2)
 - [WebSocket Hijacking](https://portswigger.net/web-security/websockets)
 - [ffuf Usage Guide](https://github.com/ffuf/ffuf)
 
