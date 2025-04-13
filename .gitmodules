@@ -1,0 +1,3 @@
+[submodule "dvga"]
+	path = dvga
+	url = git@github.com:dolevf/Damn-Vulnerable-GraphQL-Application.git
